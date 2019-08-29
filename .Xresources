@@ -1,0 +1,58 @@
+! == Breeze ==
+! -- Primary --
+! Paper White
+#define primary0 #fcfcfc
+! Cardboard Grey
+#define primary1 #eff0f1
+! Icon Grey
+#define primary2 #4d4d4d
+! Charcoal Grey
+#define primary3 #31363b
+! Shade Black
+#define primary4 #232629
+! Plasma Blue
+#define primary5 #3daee9
+
+! -- Secondary --
+! Icon Red
+#define secondary0 #da4453
+! Danger Red
+#define secondary1 #ed1515
+! Icon Orange
+#define secondary2 #f47750
+! Beware Orange
+#define secondary3 #f67400
+! Icon Yellow
+#define secondary4 #fdbc4b
+
+! Sunbeam Yellow
+#define secondary5 #c9ce3b
+! Mellow Turquoise
+#define secondary6 #1cdc9a
+! Icon Green
+#define secondary7 #2ecc71
+! Verdant Green
+#define secondary8 #11d116
+! Icon Blue
+#define secondary9 #1d99f3
+! Purple
+#define secondary10 #9b59bc
+
+! -- Custom --
+! Medium Violet Red
+#define custom0 #c71585
+
+! == Colors ==
+
+*.color0:		primary4
+*.color1:		custom0
+*.color2:		secondary10
+*.color3:		secondary5
+*.color4:		primary5
+*.color5:		secondary0
+
+*.color6:		secondary6
+*.color7:		secondary3
+
+! == Transparency ==
+*.alpha:		1

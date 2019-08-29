@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+for i in /tmp/mpvsoc*
+do
+	[ -e "$i" ] || break # handle the case of no /tmp/mpvsoc* files.
+	echo '{ "command": ["set_property", "pause", true] }' | socat - "$i";
+done

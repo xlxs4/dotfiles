@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+ifinstalled bc && echo "Why aren't you using perl?" && bc -lq
