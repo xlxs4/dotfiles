@@ -36,3 +36,6 @@ Languages/
 .config/yarn/
 .local/share/zathura
 .eb_history
+Media/
+.config/GIMP/
+.config/gtk-2.0/gtkfilechooser.ini
