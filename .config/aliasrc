@@ -34,6 +34,9 @@ alias emacs="emacs -nw"
 
 alias vi="vim"
 
+### languages
+alias lisp="sbcl"
+
 ### toolchains
 alias make='make -j$(nproc) --debug=n'
 
