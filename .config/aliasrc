@@ -15,12 +15,11 @@ alias ka="killall" \
 	sdn="sudo shutdown -h now" \
 	gua="git remote | xargs -L1 git push --all" \
 	ls="ls -hN --color=auto --group-directories-first" \
-	grep="grep --color=auto" \
 	diff="diff --color=auto" \
 	ccat="highlight --out-format=ansi" \
 	yt="youtube-dl --add-metadata -i -o '%(upload_date)s-%(title)s.%(ext)s'" \
 	yta="yt -x -f bestaudio/best" \
-	YT="youtube-viewer" \
+	yv="youtube-viewer" \
 	ref="shortcuts >/dev/null; source ~/.config/shortcutrc" \
 	upc="sudo pacman -Syu; pkill -RTMIN+8 i3blocks" \
 	lsp="pacman -Qett --color=always | less" \
@@ -43,7 +42,7 @@ alias make='make -j$(nproc) --debug=n'
 ### pacman/yay
 # pacman
 alias pacin="sudo pacman -S"
-alias pacins="sudo pacman -U"
+alias pacins="sudo pacman -SU"
 alias pacinsd="sudo pacman -S --asdeps"
 alias pacloc="pacman -Qi"
 alias paclocs="pacman -Qs"
@@ -60,6 +59,7 @@ alias pacfileupg="sudo pacman -Fy"
 alias pacfiles="pacman -Fs"
 alias pacls="pacman -Ql"
 alias pacown="pacman -Qo"
+alias pactot="sudo pacman -Syyuu && yay -Syyuu"
 
 paclist() {
 	LC_ALL=C pacman -Qei "$(pacman -Qu | cut -d " " -f 1)" | \
@@ -141,7 +141,7 @@ alias mkdir="mkdir -pv"
 alias ..="cd .."
 
 ### pattern matchers
-alias grep="grep --color=auto"
+#alias grep="grep --color=auto"
 alias egrep="egrep --color=auto"
 alias fgrep="fgrep --color=auto"
 

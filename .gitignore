@@ -39,3 +39,13 @@ Languages/
 Media/
 .config/GIMP/
 .config/gtk-2.0/gtkfilechooser.ini
+.viminfo
+README.md
+todo
+.config/Code\ -\ OSS/
+.vscode-oss/
+.ipython
+.local/share/jupyter/
+.vs-kubernetes/
+.lesshst
+.software/

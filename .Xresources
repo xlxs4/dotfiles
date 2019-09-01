@@ -41,6 +41,12 @@
 ! -- Custom --
 ! Medium Violet Red
 #define custom0 #c71585
+! Filosidis Turqoise
+#define custom1 #36b8bf
+! Bright Magenta Purple
+#define custom2 #b500a0
+! Medium Blue
+#define custom3 #0061b5
 
 ! == Colors ==
 
@@ -48,11 +54,11 @@
 *.color1:		custom0
 *.color2:		secondary10
 *.color3:		secondary5
-*.color4:		primary5
-*.color5:		secondary0
+*.color4:		custom1
+*.color5:		custom3
 
 *.color6:		secondary6
-*.color7:		secondary3
+*.color7:		custom2
 
 ! == Transparency ==
 *.alpha:		1
