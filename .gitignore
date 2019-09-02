@@ -50,3 +50,8 @@ todo
 .lesshst
 .software/
 .config/wall.png
+.jupyter/
+.local/share/TabNine/
+.local/share/vifm/
+.vscode-cpptools/
+Downloads/

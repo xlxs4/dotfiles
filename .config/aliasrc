@@ -174,6 +174,7 @@ alias txl='tmuxinator list'
 ### git
 # git status
 alias g="git status -sb"
+alias gclean="git reflog expire --expire=now --all && git gc --prune=now --aggressive"
 deploy () { 
 	git add .; git commit -s -S -m "$1"; git push
 }

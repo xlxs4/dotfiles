@@ -145,9 +145,9 @@ Plug 'dense-analysis/ale'
 " Initialize plug system.
 call plug#end()
 
-" Set 'dark' background.
-set background=light
-" Set GUI colors.
+" Set dark background.
+"set background=dark
+" Set terminal colors.
 set termguicolors
 " Set 'dracula' colorscheme.
 colo dracula
