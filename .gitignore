@@ -1,3 +1,6 @@
+# TODO: move dotfiles to separate dir and symlink before this becomes
+# a total and utter fatherfucking mess and I gut myself out before
+# I use my intenstines to make a nook and hang from my flesh.
 .Xauthority
 .bash_history
 .bash_logout
@@ -55,3 +58,7 @@ todo
 .local/share/vifm/
 .vscode-cpptools/
 Downloads/
+.local/bin/futurize
+.local/bin/pasteurize
+.local/bin/pyls
+.local/lib/

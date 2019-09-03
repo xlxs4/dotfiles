@@ -140,6 +140,7 @@ Plug 'Olical/vim-scheme', { 'for': 'scheme', 'on': 'SchemeConnect' }
 Plug 'dracula/vim'
 Plug 'elmcast/elm-vim' "TODO: elm not supported so no { 'for': }
 Plug 'dense-analysis/ale'
+Plug 'zxqfl/tabnine-vim'
 
 
 " Initialize plug system.

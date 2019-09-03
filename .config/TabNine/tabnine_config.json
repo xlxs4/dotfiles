@@ -4,7 +4,11 @@
   "beta_enabled": "No",
   "ignore_all_lsp": false,
   "creation_time": "2019-09-02T20:38:50.475107106Z",
-  "semantic_status": {},
+  "semantic_status": {
+    "scheme": "Suppressed",
+    "python": "Enabled",
+    "cpp": "Enabled"
+  },
   "disable_auto_update": false,
   "user_understands_that_enabling_tabnine_cloud_sends_code_to_tabnine_servers": false,
   "hosted_deep_completions_enabled": "Disabled",
