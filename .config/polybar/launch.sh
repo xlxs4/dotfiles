@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+# Make sure we have xrandr.
+if ! command -v xrandr >/dev/null 2>&1; then
+	exit
+fi
+
 # Terminate already running bar instances.
 killall -q polybar
 

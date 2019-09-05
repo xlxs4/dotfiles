@@ -114,8 +114,6 @@ map 0 ^
 map <space> @@
 map <c-space> /
 
-" you can find the supported files in
-" ls /usr/share/vim/vim81/ftplugin/
 " .cls files are LaTeX.
 autocmd BufRead,BufNewFile   *.cls setlocal syntax=tex
 " .scm files are Scheme.
@@ -129,6 +127,8 @@ autocmd BufRead,BufNewFile   *.scm setlocal lisp
 " Initialize plug.
 call plug#begin('~/.local/share/nvim/plugged')
 
+" you can find the supported files in
+" ls /usr/share/vim/vim81/ftplugin/
 Plug 'tpope/vim-surround'
 Plug 'junegunn/rainbow_parentheses.vim', { 'for': ['clojure', 'scheme'] }
 Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
@@ -137,10 +137,11 @@ Plug 'guns/vim-sexp', { 'for': ['clojure', 'scheme'] }
 Plug 'tpope/vim-sexp-mappings-for-regular-people', { 'for': ['clojure', 'scheme'] }
 Plug 'kovisoft/paredit', { 'for': ['clojure', 'scheme'] }
 Plug 'Olical/vim-scheme', { 'for': 'scheme', 'on': 'SchemeConnect' }
-Plug 'dracula/vim'
+Plug 'ntk148v/vim-horizon'
 Plug 'elmcast/elm-vim' "TODO: elm not supported so no { 'for': }
 Plug 'dense-analysis/ale'
 Plug 'zxqfl/tabnine-vim'
+Plug 'elixir-editors/vim-elixir' "TODO: elixir not supported so no { 'for': }
 
 
 " Initialize plug system.
@@ -150,5 +151,5 @@ call plug#end()
 "set background=dark
 " Set terminal colors.
 set termguicolors
-" Set 'dracula' colorscheme.
-colo dracula
+" Set 'horizon' colorscheme.
+colo horizon

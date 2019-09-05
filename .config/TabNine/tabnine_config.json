@@ -5,9 +5,10 @@
   "ignore_all_lsp": false,
   "creation_time": "2019-09-02T20:38:50.475107106Z",
   "semantic_status": {
+    "javascript": "Suppressed",
     "scheme": "Suppressed",
-    "python": "Enabled",
-    "cpp": "Enabled"
+    "python": "Suppressed",
+    "cpp": "Suppressed"
   },
   "disable_auto_update": false,
   "user_understands_that_enabling_tabnine_cloud_sends_code_to_tabnine_servers": false,
