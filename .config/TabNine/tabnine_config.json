@@ -5,9 +5,9 @@
   "ignore_all_lsp": false,
   "creation_time": "2019-09-02T20:38:50.475107106Z",
   "semantic_status": {
+    "python": "Suppressed",
     "javascript": "Suppressed",
     "scheme": "Suppressed",
-    "python": "Suppressed",
     "cpp": "Suppressed"
   },
   "disable_auto_update": false,

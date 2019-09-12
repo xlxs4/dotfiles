@@ -142,6 +142,8 @@ Plug 'elmcast/elm-vim' "TODO: elm not supported so no { 'for': }
 Plug 'dense-analysis/ale'
 Plug 'zxqfl/tabnine-vim'
 Plug 'elixir-editors/vim-elixir' "TODO: elixir not supported so no { 'for': }
+Plug 'JuliaEditorSupport/julia-vim' "TODO: julia not supported so no { 'for': }
+Plug 'mhinz/vim-mix-format' "TODO: elixir not supported so no { 'for': }
 
 
 " Initialize plug system.

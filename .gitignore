@@ -62,4 +62,10 @@ Downloads/
 .local/bin/pasteurize
 .local/bin/pyls
 .local/lib/
-bob/
+elixir/
+.hex/
+.mix/
+.npm/
+.local/bin/py.test
+.local/bin/pytest
+.keychain/

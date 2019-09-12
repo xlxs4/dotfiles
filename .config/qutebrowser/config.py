@@ -5,7 +5,7 @@ config.load_autoconfig()
 ### Then overwrite it.
 
 # Default start page.
-c.url.start_pages = ['127.0.0.1:8080']
+c.url.start_pages = ['file:///home/xlxs4/.config/homepage/index.html']
 # Default search engine.
 c.url.searchengines = {'DEFAULT': 'google.com/search?q={}'}
 # Default blank page.
