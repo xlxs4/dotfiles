@@ -31,8 +31,6 @@ alias tmux="tmux -u"
 ### editors
 alias emacs="emacs -nw"
 
-alias vi="vim"
-
 ### languages
 alias lisp="sbcl"
 

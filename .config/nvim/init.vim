@@ -136,12 +136,14 @@ Plug 'guns/vim-clojure-highlight', { 'for': 'clojure' }
 Plug 'guns/vim-sexp', { 'for': ['clojure', 'scheme'] }
 Plug 'tpope/vim-sexp-mappings-for-regular-people', { 'for': ['clojure', 'scheme'] }
 Plug 'kovisoft/paredit', { 'for': ['clojure', 'scheme'] }
-Plug 'Olical/vim-scheme', { 'for': 'scheme', 'on': 'SchemeConnect' }
+Plug 'jpalardy/vim-slime'
 Plug 'ntk148v/vim-horizon'
 Plug 'elmcast/elm-vim' "TODO: elm not supported so no { 'for': }
 Plug 'dense-analysis/ale'
 Plug 'elixir-editors/vim-elixir' "TODO: elixir not supported so no { 'for': }
 Plug 'mhinz/vim-mix-format' "TODO: elixir not supported so no { 'for': }
+Plug 'Olical/vim-scheme', { 'for': 'scheme', 'on': 'SchemeConnect' }
+Plug 'zxqfl/tabnine-vim'
 
 
 " Initialize plug system.
@@ -153,3 +155,8 @@ call plug#end()
 set termguicolors
 " Set 'horizon' colorscheme.
 colo horizon
+
+" Scheme REPL terminal size.
+let g:scheme_split_size = 7
+" Tell SLIME to send text to nvim's terminal.
+let g:slime_target = "neovim"
