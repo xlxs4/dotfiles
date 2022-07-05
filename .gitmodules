@@ -6,4 +6,4 @@
 	url = https://gist.github.com/76d07cc808a369c4bbc2882294c5c251.git
 [submodule ".config/assets"]
 	path = .config/assets
-	url = git@gitlab.com:adotfiles/dotfile-assets.git
+	url = https://github.com/xlxs4/dotfile-assets
