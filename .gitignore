@@ -1,6 +1,3 @@
-# TODO: move dotfiles to separate dir and symlink before this becomes
-# a total and utter fatherfucking mess and I gut myself out before
-# I use my intenstines to make a nook and hang from my flesh.
 .Xauthority
 .bash_history
 .bash_logout
@@ -43,7 +40,6 @@ Media/
 .config/GIMP/
 .config/gtk-2.0/gtkfilechooser.ini
 .viminfo
-README.md
 todo
 .config/Code\ -\ OSS/
 .vscode-oss/
